@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@0;1&display=swap');
+
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-image: radial-gradient(circle, white 5%, rgba(165, 116, 42, 0.788));
+    padding: 15px;
+    background-color: black;
+    min-width: 400px;
+    box-shadow: 2px 0px 2px 2px rgba(0, 0, 0, 0.185) ;
+
+}
+
+header > h1 {
+    font-family: 'Slackey', cursive;
+    text-align: center;
+}
+
+header > h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+header > h2 > a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgba(141, 62, 9, 0.781);
+    transition-duration: .5s;
+}
+
+p {
+    font-family: 'Kanit', sans-serif;
+    padding: 20px;
+    font-style: oblique;
+}
+
+footer {
+    background-image: radial-gradient(circle, white 5%, rgba(165, 116, 42, 0.788));
+    max-height: auto;
+}
+
+footer > p {
+    text-align: center;
+    font-style: normal;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: black;
+}
