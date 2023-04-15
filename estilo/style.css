@@ -21,7 +21,7 @@ header {
     background-image: radial-gradient(circle, white 5%, rgba(165, 116, 42, 0.788));
     padding: 40px;
     background-color: black;
-    min-width: 420px;
+    min-width: 350px;
 }
 
 header > h1 {
